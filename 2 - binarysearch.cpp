@@ -1,3 +1,4 @@
+//Program that will search an element in the array given by identifying the left, right, and middle element of an array.
 #include<iostream>
 
 using namespace std;
