@@ -1,3 +1,4 @@
+//Program that will search the position of an element of an array.
 #include<iostream>
 
 using namespace std;
@@ -15,7 +16,7 @@ int main()
 	
 	for(i=0; i<n; i++)
 	{
-		if(arr[i]==targetnum)
+		if(arr[i]==targetnum) //if true go to else and be printed. if false it will be skipped by the program
 			{
 				found=true;
 				ans=i;
