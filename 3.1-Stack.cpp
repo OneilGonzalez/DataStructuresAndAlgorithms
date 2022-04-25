@@ -4,8 +4,6 @@
 #include<stack>
 using namespace std;
 
-
-
 int main()
 {
 	std::stack<char> mystack;
@@ -19,6 +17,7 @@ int main()
 		{
 			mystack.push(str[i]);//push z
 		}
+		
 		else
 		{
 			int topele=mystack.top(); //gets top element in the stack
