@@ -14,8 +14,7 @@ void display(Node*head)
 		{
 			cout<<currentnode->data<<endl;
 			currentnode=currentnode->next;
-		}
-		
+		} 
 }
 
 void add_node_start(Node**head, int data)
@@ -25,8 +24,8 @@ void add_node_start(Node**head, int data)
 	newNode->next=NULL;// it initialize the next point of the node
 	newNode->next=(*head);
 	(*head)=newNode;
-
 }
+
 void add_node_mid(Node**head, int data, int n) //n is the number of times a program will go through an element of a list
 {
 	struct Node*newNode=new Node;
@@ -40,9 +39,9 @@ void add_node_mid(Node**head, int data, int n) //n is the number of times a prog
 		counter+=1;
 	}
 	newNode->next= currentnode->next;
-	currentnode->next=newNode;
-	
+	currentnode->next=newNode;	
 }
+
 void add_node_end(Node**head, int data)
 {
 	struct Node*newNode=new Node;
@@ -59,13 +58,11 @@ void add_node_end(Node**head, int data)
 			currentnode=currentnode->next;
 		}
 	currentnode->next=newNode;
-	}
-	
+	}	
 }
 
 int main()
 {
-	
 	struct Node*head;
 	head=NULL;	
 	add_node_start(&head,10);
@@ -73,6 +70,5 @@ int main()
 	add_node_start(&head,30);
 	add_node_end(&head, 40);
 	add_node_mid(&head,50,2);
-	display(head);
-		
+	display(head);		
 }
