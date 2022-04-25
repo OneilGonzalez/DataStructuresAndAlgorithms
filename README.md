@@ -1,4 +1,4 @@
-# DataStructuresAndAlgorithms
+# Data Structures and Algorithms
 
 ## Search Algorithms
 ### Linear Search - a method of searching which inspects each element within a list until it found the one that it is searching for.
