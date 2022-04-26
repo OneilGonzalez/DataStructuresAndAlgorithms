@@ -6,7 +6,6 @@
 
 ## Linked List
 ### Singly Linked List - 
-#### a
 ### Doubly Linked List - 
 
 ## Stack and Queues
