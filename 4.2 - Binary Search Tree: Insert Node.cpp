@@ -37,7 +37,7 @@ void search(BSTNode* p, int el)
 
 void insertnode(BSTNode* &root, int el)
 {
-	if(root==nullptr)
+	if(root==nullptr) //root= in which placement will the new node be placed.
 	{
 		root=new BSTNode(el);
 		return;
