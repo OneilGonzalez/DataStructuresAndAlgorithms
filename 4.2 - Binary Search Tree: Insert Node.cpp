@@ -37,7 +37,7 @@ void search(BSTNode* p, int el)
 
 void insertnode(BSTNode* &root, int el)
 {
-	if(root==nullptr) //root= in which placement will the new node be placed.
+	if(root==nullptr)
 	{
 		root=new BSTNode(el);
 		return;
@@ -75,4 +75,36 @@ BSTNode*root=nullptr;
 for(int i=0; i<7;i++)
 {
 	insertnode(root,key[i])
+}
+	/*BSTNode *a= new BSTNode();
+	a->key=17;
+	a->left=NULL;
+	a->right=NULL;
+
+	BSTNode *b= new BSTNode();
+	b->key=6;
+	b->left=NULL;
+	b->right=NULL;
+
+	BSTNode *c= new BSTNode();
+	c->key=20;
+	c->left=NULL;
+	c->right=NULL;
+
+	BSTNode *d= new BSTNode();
+	d->key=3;
+	d->left=NULL;
+	d->right=NULL;
+
+	BSTNode *e= new BSTNode();
+	e->key=14;
+	e->left=NULL;
+	e->right=NULL;
+
+	a->left=b;
+	a->right=c;
+	b->left=d;
+	b->right=e;
+	*/
+	search(a,14);
 }
