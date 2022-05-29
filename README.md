@@ -10,8 +10,8 @@
 
 ## Stack and Queues
 ### Stack
-### Stack using Queues
-### Queues Using Stack
+#### Stack using Queues
+#### Queues Using Stack
 ### Queues
 
 ## Trees
