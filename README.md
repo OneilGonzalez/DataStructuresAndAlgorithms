@@ -16,3 +16,8 @@
 
 ## Trees
 ### Binary Search Tree
+### Types of Binary Search Tree:
+#### Level Order - 
+#### 
+####
+#### 
