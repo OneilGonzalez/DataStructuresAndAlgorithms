@@ -16,8 +16,8 @@
 
 ## Trees
 ### Binary Search Tree
-### Types of Binary Search Tree:
+### Transversals
 #### Level Order - 
-#### 
-####
-#### 
+#### Preorder - print left right
+#### Inorder - left print right 
+#### Postorder - left right print
