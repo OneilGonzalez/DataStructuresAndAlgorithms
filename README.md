@@ -10,14 +10,14 @@
 
 ## Stack and Queues
 #### Stack
-##### Stack using Queues
-##### Queues Using Stack
+#####    Stack using Queues
+#####    Queues Using Stack
 #### Queues
 
 ## Trees
 #### Binary Search Tree
 #### Transversals
-##### Level Order - 
-##### Preorder - print left right
-##### Inorder - left print right 
-##### Postorder - left right print
+#####    Level Order - transverses based on the level of the tree
+#####    Preorder - print left right
+#####    Inorder - left print right 
+#####    Postorder - left right print
